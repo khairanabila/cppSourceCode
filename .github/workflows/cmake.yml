@@ -1,0 +1,34 @@
+name: Awesome CI Workflow
+
+on: [push, pull_request]
+#   push:
+#     branches: [ main ]
+#   pull_request:
+#     branches: [ main ]
+
+jobs:
+  MainSequence:
+    name: Code Formatter
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1 # v2 is broken for git diff
+      - uses: actions/setup-python@v2
+      - name: requirements
+        run: | 
+          sudo apt -qq -y update
+          sudo apt -qq install clang-tidy-10 clang-format-10
+        # checks are passing with less errors when used with this version. 
+        # The default installs v6.0 which did not work out well in my tests
+  build:
+    name: Compile checks
+    runs-on: ${{ matrix.os }}
+    needs: [MainSequence]
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+    steps:
+      - uses: actions/checkout@main
+        with:
+          submodules: true
+      - run: cmake -B ./build -S .
+      - run: cmake --build build
