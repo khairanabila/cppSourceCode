@@ -7,7 +7,3 @@
 ![repo_size](https://img.shields.io/github/repo-size/bellshade/cppSourceCode?style=for-the-badge)
 
 ## Contributors ✨
-
-[![arfyslowy](https://github.com/slowy07.png?size=50)](https://github.com/slowy07)
-[![dzul](https://github.com/ctrlbzul5.png?size=50)](https://github.com/ctrlbzul5)
-[![khairanabila](https://github.com/khairanabila.png?size=50)](https://github.com/khairanabila)
