@@ -3,7 +3,7 @@ name: C/C++ CI
 on: [push, pull_request]
 
 jobs:
-  name-build:
+  build:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
