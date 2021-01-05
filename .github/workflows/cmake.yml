@@ -31,4 +31,3 @@ jobs:
         with:
           submodules: true
       - run: cmake -B ./build -S .
-      - run: cmake --build build
