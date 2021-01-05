@@ -19,7 +19,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/khairanabila"><img src="https://avatars3.githubusercontent.com/u/75076265?v=4?s=100" width="100px;" alt=""/><br /><sub><b>khaira nabila</b></sub></a><br /><a href="https://github.com/bellshade/cppSourceCode/commits?author=khairanabila" title="Code">💻</a></td>
+
   </tr>
 </table>
 
