@@ -4,7 +4,7 @@ name: CI code
 on:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   prettier:
