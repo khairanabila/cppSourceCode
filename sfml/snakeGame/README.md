@@ -62,4 +62,4 @@ make
 ## screenshot
 
 ![snakeGame](https://github.com/bellshade/cppSourceCode/blob/main/sfml/snakeGame/menuSnakeGame.png?raw=true)
-![snakeGame1(https://github.com/bellshade/cppSourceCode/blob/main/sfml/snakeGame/onSnakeGame.png?raw=true)
+![snakeGame1](https://github.com/bellshade/cppSourceCode/blob/main/sfml/snakeGame/onSnakeGame.png?raw=true)
