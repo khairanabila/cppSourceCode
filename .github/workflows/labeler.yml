@@ -1,0 +1,8 @@
+name : labeler
+
+version: 1
+labels:
+- label: "automerge"
+  title: "^automerge:.*"
+- label: "automerge"
+  mergeable: true
