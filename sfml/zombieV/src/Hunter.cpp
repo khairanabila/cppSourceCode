@@ -97,7 +97,7 @@ void Hunter::update(GameWorld& world)
 
     m_coord = getBodyCoord();
 
-    _time += DT;
+    _time += DT; // +1 state time event
 
     if (_clicking && _state != RELOADING)
     {
@@ -110,6 +110,7 @@ void Hunter::update(GameWorld& world)
     }
     else if (_state == MOVING)
     {
+        // bool wait = !(_lastState)
         bool wait = !(_lastState==IDLE);
         _changeAnimation(_currentWeapon->getMoveAnimation(), wait);
     }
