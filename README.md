@@ -4,7 +4,6 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=for-the-badge)](#contributors-)
 
-
 [![open pull request](https://img.shields.io/github/issues-pr/bellshade/cppSourceCode?style=for-the-badge)](https://github.com/bellshade/cppSourceCode/pulls)
 ![closed pull request](https://img.shields.io/github/issues-pr-closed/bellshade/cppSourceCode?color=green&style=for-the-badge)
 ![codefactor](https://img.shields.io/codefactor/grade/github/bellshade/cppSourceCode/main?style=for-the-badge)
