@@ -1,0 +1,46 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "ctrlbzul5",
+      "name": "Zulfikri Ramadhan Yoga",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/50226344?v=4",
+      "profile": "http://instagram.com/zulfikriry5",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
+    },
+    {
+      "login": "slowy07",
+      "name": "arfy slowy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/40540262?v=4",
+      "profile": "https://allofsystem.blogspot.com",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
+    },
+    {
+      "login": "khairanabila",
+      "name": "khaira nabila",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/75076265?v=4",
+      "profile": "https://github.com/khairanabila",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "cppSourceCode",
+  "projectOwner": "bellshade",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
